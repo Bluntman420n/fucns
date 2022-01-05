@@ -14,14 +14,14 @@ local utility = {}
 -- themes
 local objects = {}
 local themes = {
-	Background = Color3.fromRGB(24, 24, 24), 
-	Glow = Color3.fromRGB(0, 0, 0), 
-	Accent = Color3.fromRGB(10, 10, 10), 
-	LightContrast = Color3.fromRGB(20, 20, 20), 
-	DarkContrast = Color3.fromRGB(14, 14, 14),  
-	TextColor = Color3.fromRGB(255, 255, 255),
-	ZombieESP = Color3.FromRGB(0, 255, 0),
-	MysteryBoxESP = Color3.FromRGB(255, 0, 0)
+    Background = Color3.fromRGB(24, 24, 24), 
+    Glow = Color3.fromRGB(0, 255, 0), 
+    Accent = Color3.fromRGB(10, 10, 10), 
+    LightContrast = Color3.fromRGB(20, 20, 20), 
+    DarkContrast = Color3.fromRGB(14, 14, 14),  
+    TextColor = Color3.fromRGB(255, 255, 255),
+    ZombieESP = Color3.FromRGB(0, 255, 0),
+    MysteryBoxESP = Color3.FromRGB(255, 0, 0)
 }
 
 do
@@ -188,7 +188,7 @@ do
 		input.InputChanged:Connect(function(input)
 			if input == dragInput and dragging then
 				local delta = input.Position - mousePos
-				parent.Position  = UDim2.new(framePos.X.Scale, framePos.X.Offset + delta.X, framePos.Y.Scale, framePos.Y.Offset + delta.Y)Offset + delta.Y)
+				parent.Position  = UDim2.new(framePos.X.Scale, framePos.X.Offset + delta.X, framePos.Y.Scale, framePos.Y.Offset + delta.Y)
 			end
 		end)
 
@@ -594,9 +594,9 @@ do
 		notification.Text.Text = text
 		
 		local padding = 10
-		local textSize = game:GetService("TextService"):GetTextSize(text, 12, Enum.Font.Gotham, Vector2.new(math.huge, 16))))
+		local textSize = game:GetService("TextService"):GetTextSize(text, 12, Enum.Font.Gotham, Vector2.new(math.huge, 16))
 		
-		notification.Position = library.lastNotification or UDim2.new(0, padding, 1, -(notification.AbsoluteSize.Y + padding))ing))
+		notification.Position = library.lastNotification or UDim2.new(0, padding, 1, -(notification.AbsoluteSize.Y + padding))
 		notification.Size = UDim2.new(0, 0, 0, 60)
 		
 		utility:Tween(notification, {Size = UDim2.new(0, textSize.X + 70, 0, 60)}, 0.2)
@@ -873,7 +873,7 @@ do
 		
 		input:GetPropertyChangedSignal("Text"):Connect(function()
 			
-			if button.ImageTransparency == 0 and (button.Size == UDim2.new(0, 200, 0, 16) or button.Size == UDim2.new(0, 100, 0, 16)) then -- i know, i dont like this either100, 0, 16)) then -- i know, i dont like this either
+			if button.ImageTransparency == 0 and (button.Size == UDim2.new(0, 200, 0, 16) or button.Size == UDim2.new(0, 100, 0, 16)) then -- i know, i dont like this either
 				utility:Pop(button, 10)
 			end
 			
@@ -2150,7 +2150,7 @@ do
 		
 		local frame = dropdown.List.Frame
 		
-		utility:Tween(dropdown, {Size = UDim2.new(1, 0, 0, (entries == 0 and 30) or math.clamp(entries, 0, 3) * 34 + 38)}, 0.3), 0.3)
+		utility:Tween(dropdown, {Size = UDim2.new(1, 0, 0, (entries == 0 and 30) or math.clamp(entries, 0, 3) * 34 + 38)}, 0.3)
 		utility:Tween(dropdown.Search.Button, {Rotation = list and 180 or 0}, 0.3)
 		
 		if entries > 3 then
@@ -2170,5 +2170,5 @@ do
 	end
 end
 
-print("IF YOU SEE THIS YOUR RETARDED FOR USING HACKS :)")
+print("420Script Was here")
 return library
