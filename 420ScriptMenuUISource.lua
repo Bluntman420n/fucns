@@ -2170,5 +2170,5 @@ do
 	end
 end
 
-print("420Script Was here")
+print("dino was here :\)")
 return library
