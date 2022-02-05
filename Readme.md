@@ -11,3 +11,4 @@
 #### 3. [Build A Boat For Treasure](https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure#!/about "Build A Boat For Treasure")
 #### 4. [MMC Zombies Project](https://www.roblox.com/games/990345203/zp-nacht-der-untoten#!/about "MMC Zombies Project")
 #### 5. [CHAOS](https://www.roblox.com/games/6441847031/CHAOS "CHAOS")
+#### 6. [RECOIL ZOMBIES](https://www.roblox.com/games/4913331862/RECOIL-ZOMBIES "RECOIL ZOMBIES")
