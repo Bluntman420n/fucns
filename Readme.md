@@ -3,7 +3,7 @@
 ## **loadstring(game:HttpGet("https://raw.githubusercontent.com/Bluntman420n/fucns/main/FUCKYOUCUNT.BLUNT", true))()**
 
 
-### **[Join Discord](https://discord.gg/CmKTnvmPQv "Join Discord")**
+### **[Join Discord](https://discord.gg/VQ5WKthhsE "Join Discord")**
 
 #### Games Supported 
 #### 1. [Project Lazarus](https://www.roblox.com/games/443406476/Project-Lazarus-ZOMBIES-M26-MASS "Project Lazarus")
